@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link href="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
 
@@ -122,6 +123,9 @@
 								<div class="4u 12u$(mobile)">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/TerraNostra.png" alt="Terra Nostra" /></a>
+										<a href="#" data-featherlight="#mylightbox" class="image fit">Open element in lightbox</a>
+										<div id="mylightbox">This div will be opened in a lightbox</div>
+
 										<header>
 											<h3>Terra Nostra</h3>
 										</header>
@@ -204,6 +208,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="//code.jquery.com/jquery-latest.js"></script>
+			<script src="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 	</body>
 </html>
